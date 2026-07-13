@@ -216,7 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+<<<<<<< HEAD
 # Ignore cleaned datasets
 data/cleaned/
 
 
+=======
+>>>>>>> ea3059a6b36ad3fcf745998cef810cfc114e97e0

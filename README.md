@@ -2,235 +2,301 @@
 End-to-end retail sales analytics project using Python, Pandas, Power BI, and GitHub.
 # 🛍️ Online Retail Sales Analysis
 
-End-to-End Data Cleaning, Exploratory Data Analysis (EDA), and Interactive Power BI Dashboard using Python and Power BI.
+### End-to-End Data Analytics Project using Python, Pandas & Power BI
 
----
+This project demonstrates a complete **Data Analytics workflow**, transforming over **1 million retail transactions** into meaningful business insights through:
 
+- 🧹 Data Cleaning using Pandas
+- 📊 Exploratory Data Analysis (EDA)
+- 📈 Interactive Power BI Dashboard
+- 📉 Business Insight Generation
 
+The project follows industry-standard analytics practices, from raw data preprocessing to executive-level dashboard reporting.
 
+# 🛍️ Online Retail Sales Analysis
 
-## 📌 Project Overview
+### End-to-End Data Analytics Project using Python, Pandas & Power BI
 
-This project analyzes over **1 million retail transactions** from a UK-based online retailer between **December 2009 and December 2011**.
+This project demonstrates a complete **Data Analytics workflow**, transforming over **1 million retail transactions** into meaningful business insights through:
 
-The objective was to transform raw transactional data into meaningful business insights through:
+- 🧹 Data Cleaning using Pandas
+- 📊 Exploratory Data Analysis (EDA)
+- 📈 Interactive Power BI Dashboard
+- 📉 Business Insight Generation
 
-- Data Cleaning
-- Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Interactive Power BI Dashboard Development
+The project follows industry-standard analytics practices, from raw data preprocessing to executive-level dashboard reporting.
 
-The project demonstrates an end-to-end data analytics workflow commonly used by Data Analysts and Business Intelligence professionals.
+## 📖 Project Overview
 
-## 🎯 Business Problem
+Retail businesses generate millions of transaction records, but raw sales data often contains duplicate records, cancelled orders, missing values, and inconsistent information that can affect business reporting.
 
-Retail businesses generate massive amounts of transactional data every day.
+In this project, the **Online Retail II** dataset from the **UCI Machine Learning Repository** was cleaned, transformed, and analyzed to uncover meaningful business insights.
 
-However, raw sales data often contains:
+The project concludes with a fully interactive **Power BI dashboard** designed for executive reporting and sales analysis.
 
-- Duplicate records
-- Cancelled transactions
-- Missing customer information
-- Invalid prices
-- Inconsistent data
+This project simulates a real-world Data Analyst workflow commonly used in retail and e-commerce organizations.
 
-Without proper cleaning, business reports and dashboards can produce misleading insights.
+## 🚀 Project Highlights
 
-This project focuses on preparing reliable retail data for analysis and developing an interactive dashboard to support business decision-making.
+✔ Cleaned over **1 million** transaction records
+
+✔ Removed duplicate and invalid transactions
+
+✔ Engineered new analytical features
+
+✔ Performed Exploratory Data Analysis (EDA)
+
+✔ Built a 3-page interactive Power BI Dashboard
+
+✔ Generated actionable business insights
+
+✔ Documented the complete analytics workflow
+
+## 🔄 Project Workflow
+
+```text
+Raw Dataset
+      │
+      ▼
+Data Cleaning (Pandas)
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Business Insights
+```
 
 ## 📂 Dataset Information
 
-**Dataset:** Online Retail II
+| Attribute | Details |
+|-----------|---------|
+| **Dataset Name** | Online Retail II |
+| **Source** | UCI Machine Learning Repository |
+| **Domain** | E-Commerce / Retail |
+| **Time Period** | December 2009 – December 2011 |
+| **Raw Records** | 1,067,371 Transactions |
+| **Features** | 8 Columns |
+| **File Format** | Excel (.xlsx) |
 
-**Source:** UCI Machine Learning Repository
-
-**Time Period:**
-- December 2009 – December 2011
-
-**Rows:**
-- 1,067,371 (Raw)
-
-**Rows after Cleaning:**
-- ~1,007,913
-
-**Features Include:**
+### Dataset Features
 
 - Invoice
 - StockCode
 - Description
 - Quantity
+- InvoiceDate
 - Price
 - Customer ID
 - Country
-- InvoiceDate
 
-## 🔄 Project Workflow
+## 🎯 Business Objective
 
-Raw Dataset
+The objective of this project is to transform raw retail transaction data into meaningful business insights by:
 
-↓
+- Cleaning inconsistent and incomplete transactional records
+- Identifying sales trends across time
+- Understanding customer purchasing behavior
+- Evaluating product performance
+- Building an interactive dashboard for business stakeholders
 
-Data Cleaning (Pandas)
+The final dashboard enables decision-makers to monitor sales performance and identify opportunities for business growth.
 
-↓
+## 🛠️ Tech Stack
 
-Feature Engineering
-
-↓
-
-Exploratory Data Analysis
-
-↓
-
-Business Insights
-
-↓
-
-Power BI Dashboard
-
-↓
-
-Business Decision Support
-
-## 🛠️ Technologies Used
-
-### Programming
+### Programming Language
 
 - Python
 
-### Libraries
+### Data Analysis
 
 - Pandas
 - NumPy
+
+### Data Visualization
+
 - Matplotlib
 
 ### Business Intelligence
 
-- Power BI Desktop
+- Microsoft Power BI
 
-### Development Tools
+### Development Environment
 
 - Jupyter Notebook
-- VS Code
+- Visual Studio Code
+
+### Version Control
+
 - Git
 - GitHub
 
-## 🧹 Data Cleaning
-
-The following preprocessing steps were performed:
-
-- Removed duplicate records
-- Removed cancelled invoices
-- Removed invalid prices
-- Removed negative quantities
-- Removed accounting adjustment records
-- Handled missing values
-- Verified final dataset quality
-
-## ⚙️ Feature Engineering
-
-New columns were created to simplify analysis:
-
-- Revenue
-- Year
-- Month
-- Month Name
-- Weekday
-- Hour
-- Weekend
-
-## 📊 Exploratory Data Analysis
-
-Key analyses performed include:
-
-- Monthly Revenue Trend
-- Top 10 Products
-- Top 10 Customers
-- Revenue by Country
-- Revenue by Hour
-- Revenue by Weekday
-- Average Order Value
-
-## 📈 Power BI Dashboard
-
-The interactive dashboard consists of three report pages:
-
-### Executive Dashboard
-
-- Total Revenue
-- Total Orders
-- Total Customers
-- Average Order Value
-- Monthly Revenue Trend
-- Top Countries by Revenue
-
-### Sales Performance
-
-- Top Products
-- Revenue by Weekday
-- Revenue by Hour
-
-### Customer Insights
-
-- Top Customers
-- Customer Order Analysis
-- Revenue Distribution
-
-## 💡 Key Business Insights
-
-- The United Kingdom contributes the majority of total revenue.
-- Revenue peaks during the holiday shopping season.
-- A small number of products account for a significant portion of total sales.
-- Sales activity is highest during midday business hours.
-- Weekday sales consistently outperform weekend sales.
-
 ## 📁 Repository Structure
 
+```
 online-retail-sales-analysis/
 
 ├── dashboard/
-
+│   └── Online_Retail_Sales_Dashboard.pbix
+│
 ├── data/
-
-│ ├── raw/
-
-│ └── cleaned/
-
+│   └── raw/
+│       └── online_retail_II.xlsx
+│
 ├── notebooks/
-
+│   └── retail_analysis.ipynb
+│
 ├── outputs/
-
+│   ├── monthly_revenue.csv
+│   ├── country_revenue.csv
+│   └── visualizations
+│
 ├── screenshots/
-
+│   ├── executive_dashboard.png
+│   ├── sales_dashboard.png
+│   └── customer_dashboard.png
+│
 ├── README.md
-
 ├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
 
-└── LICENSE
+## 🧹 Data Cleaning
 
-## 🚀 Installation
+Several preprocessing techniques were applied to improve the quality of the dataset before analysis.
 
-Clone the repository
+### Cleaning Steps
+
+- Removed duplicate transactions
+- Removed cancelled invoices
+- Removed transactions with negative quantities
+- Removed records with zero or negative prices
+- Removed accounting adjustment entries
+- Investigated missing values
+- Validated the cleaned dataset
+
+These steps ensured that only valid customer purchases were included in the analysis.
+
+## ⚙️ Feature Engineering
+
+New analytical features were created to support business analysis.
+
+| Feature | Description |
+|----------|-------------|
+| Revenue | Quantity × Price |
+| Year | Purchase Year |
+| Month | Purchase Month |
+| Month Name | Month Label |
+| Weekday | Day of Week |
+| Hour | Purchase Hour |
+| Weekend | Weekend / Weekday Indicator |
+
+These engineered features enabled trend analysis and dashboard development.
+
+## 📊 Exploratory Data Analysis (EDA)
+
+After cleaning the dataset, exploratory analysis was performed to identify trends, customer behavior, and product performance.
+
+### Analysis Performed
+
+- 📈 Monthly Revenue Trend
+- 🌍 Revenue by Country
+- 🛒 Top 10 Products by Revenue
+- 👥 Top 10 Customers by Revenue
+- 🕒 Revenue by Hour
+- 📅 Revenue by Weekday
+- 💰 Average Order Value
+- 📦 Sales Distribution Analysis
+
+The insights obtained from EDA were later used to design an interactive Power BI dashboard.
+
+# 📸 Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+---
+
+## Sales Performance Dashboard
+
+![Sales Dashboard](screenshots/sales_dashboard.png)
+
+---
+
+## Customer Insights Dashboard
+
+![Customer Dashboard](screenshots/customer_dashboard.png)
+
+# 📸 Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+---
+
+## Sales Performance Dashboard
+
+![Sales Dashboard](screenshots/sales_dashboard.png)
+
+---
+
+## Customer Insights Dashboard
+
+![Customer Dashboard](screenshots/customer_dashboard.png)
+
+# 📌 Project Outcomes
+
+Through this project:
+
+- Processed over **1 million retail transactions**
+- Improved data quality through preprocessing
+- Generated meaningful business insights
+- Built an interactive Power BI dashboard
+- Demonstrated an end-to-end Data Analytics workflow
+
+# 🚀 How to Run
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Aqdas999/online-retail-sales-analysis.git
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook
+### Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
-## 🔮 Future Improvements
+
+Open:
+
+```
+notebooks/retail_analysis.ipynb
+```
+
+to reproduce the analysis.
+
+# 🔮 Future Improvements
 
 - Customer Segmentation (RFM Analysis)
-- Sales Forecasting
+- Sales Forecasting using Machine Learning
+- Customer Lifetime Value (CLV) Analysis
 - Profitability Analysis
-- Customer Lifetime Value (CLV)
-- Interactive Power BI Service Deployment
+- Inventory Demand Forecasting
+- Power BI Service Deployment
+

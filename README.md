@@ -1,17 +1,5 @@
 # online-retail-sales-analysis
 End-to-end retail sales analytics project using Python, Pandas, Power BI, and GitHub.
-# 🛍️ Online Retail Sales Analysis
-
-### End-to-End Data Analytics Project using Python, Pandas & Power BI
-
-This project demonstrates a complete **Data Analytics workflow**, transforming over **1 million retail transactions** into meaningful business insights through:
-
-- 🧹 Data Cleaning using Pandas
-- 📊 Exploratory Data Analysis (EDA)
-- 📈 Interactive Power BI Dashboard
-- 📉 Business Insight Generation
-
-The project follows industry-standard analytics practices, from raw data preprocessing to executive-level dashboard reporting.
 
 # 🛍️ Online Retail Sales Analysis
 
